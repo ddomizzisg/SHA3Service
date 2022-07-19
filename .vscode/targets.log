@@ -1,0 +1,331 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul 19 10:50:47 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = plasma
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 2)
+THREAD = -lcrypto 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/domizzi/.Xauthority
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes/hashString
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# makefile (from 'makefile', line 3)
+CFLAGS = -Wall -ggdb -O2 -I.
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/plasma:/home/domizzi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP=1;HDMI-1-0=1;
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f37693a3-e9ad-4865-810f-6278fefeb936.sock
+# environment
+LC_NAME = es_MX.UTF-8
+# environment
+VSCODE_CWD = /home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/dodosaga:@/tmp/.ICE-unix/5924,unix/dodosaga:/tmp/.ICE-unix/5924
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'makefile', line 4)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-03P5NJUPz92h/agent.4987
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+ 
+PWD = /home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes/hashString
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 5331
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/domizzi
+# environment
+VSCODE_CODE_CACHE_PATH = /home/domizzi/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = domizzi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+KDE_FULL_SESSION = true
+# environment
+ZSH = /home/domizzi/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+LC_TIME = es_MX.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'makefile', line 1)
+CC = gcc
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = domizzi
+# environment
+LC_MONETARY = es_MX.UTF-8
+# makefile
+.DEFAULT_GOAL := hashTable
+# environment
+ 
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = es_MX.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4b1687f3-1.68.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = es_MX.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = es_MX.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = es_MX.UTF-8
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+ 
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_MX.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = es_MX.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 21273
+# environment
+KDE_SESSION_UID = 1000
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=9/134=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 32308078): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+ 
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all test clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-14 20:55:00
+#  File has been updated.
+#  Successfully updated.
+
+hashTable: hashTable.c sha3.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 9):
+	$(CC) -o hashTable hashTable.c sha3.o $(THREAD)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	rm *.o 
+	rm hashTable
+
+# Not a target:
+hashTable.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sha3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 161 B / avg = 8 B
+# current buf: size = 8162 B / used = 161 B / count = 19 / avg = 8 B
+
+# strcache performance: lookups = 31 / hit rate = 38%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=1/31=3%
+# Finished Make data base on Tue Jul 19 10:50:47 2022
+
+ 

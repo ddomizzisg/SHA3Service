@@ -1,0 +1,8 @@
+version: "3"
+services:
+  sha3:
+    build:
+      context: app/
+    volumes:
+      - ./app:/home/hash/
+    command: "tail -f /dev/null"

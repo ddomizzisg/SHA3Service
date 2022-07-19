@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes/hashString'
+make: 'hashTable' is up to date.
+make: Leaving directory '/home/domizzi/Documents/preparationretrieval-schemes/preparationretrieval-schemes/hashString'
+ 
